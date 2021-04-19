@@ -103,3 +103,12 @@ lorem === um texto pronto para utilizar na tag <p>
 <blockquote></blockquote> === espaçamento pra frente, como se fosse um parágrafo, inclusive, há um parâmetro dentro da tag chamado `cite="informações"`, que é basicamente na hora de buscar vai ser encontrado com a referência do site que você colocar.
 <abbr title=""></abbr> === informações completas de uma abreviação
 <bdo></bdo> === com o parãmetro `dir="ltr"` texto normal, e `dir="rtl"` texto invertido
+<li></li> === linhas (obs, a partir do HTML, o fechamento da tag é opcioanl)
+<ol></ol> === ordenação das listas, existem 3 tipos de parâmetros, o `type="1"` que é uma lista de números, o `type="a"`, que é uma lista de letras, e o `type="i"`, que é uma lista de algoritmos romanos.
+<ul></ul> === lista não ordenadas, existem 3 tipos de parâmetros, o `type="disc"` que é bolinhas, o padrão, o `type="square"` que é quadradinhos, e o `type="circle"` que é bolinhas abertas.
+<dt></dt> === como se fosse um tema de uma lista
+<dd><dd> === contéudo do dt
+<a></a> === link para entrar uma outra pagina, para funcionar é necessário utilizar o parâmetro `href="<url>"`, dessa forma, você entra na página, porém,  isso vai sobrepor sua página anterior, para resolver, pode-se utilizar mais um parâmetro que é o `target="_blank"`, que vai abrir um outra aba, não fechando a sua principal.
+Outro ponto importante é colocar a parâmetro `rel="external`, para indicar ao navegador que o link é externo, link internos não é necessário utilizar o parâmetro `target="_blank"`.
+Outro parâmetro padrão é o `target="_self"`, que é a pra prória aba.
+Outro parãmetro utilizado é o `download="<nomedoarquivo>"` junto com o `type="nomedotipodoarquivo"`, para descobrir o type, o site https://www.iana.org/assignments/media-types ajuda a encontrar examente o tipo.
