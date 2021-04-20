@@ -1,3 +1,5 @@
+# Modulo 01
+
 ### A histótia da Internet 
 
 Um vídeo para ajudar:
@@ -7,14 +9,14 @@ em 1993, Tim Berners-Lee foi o criado do protocolo `http://` e a linguagem de ma
 
 ### Representação de Dados
 
-0 1 === bit
-01000001 === 8bits == 1byte
-1024 bytes === 1 KB
-1024 KB === 1 MB
-1024 MB === 1 GB
-1024 GB === 1 TB
-1024 TB === 1 PB
-1024 PB === 1 EB
+    0 1 === bit
+    01000001 === 8bits == 1byte
+    1024 bytes === 1 KB
+    1024 KB === 1 MB
+    1024 MB === 1 GB
+    1024 GB === 1 TB
+    1024 TB === 1 PB
+    1024 PB === 1 EB
 
 MB === MEGABYTES === ARMAZENAMENTO 
 Mb === MEGABITS === TRANSMISSÃO
@@ -93,7 +95,7 @@ Usado para facilitar tags dentro de um texto, como a utilização de um <strong>
 
 
 ### Tags importantes
-
+```
 <h1></h1> === Título nivel1
 <h2></h2> === Título nivel2
 <h3></h3> === Título nivel3
@@ -132,3 +134,4 @@ Outro parãmetro utilizado é o `download="<nomedoarquivo>"` junto com o `type="
 <source></source> === usada para fazer uma condição de mídia, imagem, ou som
 <audio></audio> === utilizado para colocar audio
 <video></video> === utilizado para colocar video
+```
