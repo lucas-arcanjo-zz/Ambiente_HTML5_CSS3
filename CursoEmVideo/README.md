@@ -76,6 +76,15 @@ Para não ter problemas com direitos autorais, em sempre importante ve os tipos 
 ### Utilização de vídeos
 Hoje é normal muitos utilizarem vídeos nos sites, porém, é sempre importante colocar opção de formato de vídeos, já que nem todos os navegadores suportar, por isso, existem muitos formatos populares me diversos navegadores, como por exemplo, o `mp4, m4v, webm, ogv`
 
+### Estilo Inline
+Em CSS, estilos inline é utilizado de vez em quando, mais para alguns detalhes pequeno, mas não é aconselhavel utilizar em tudo no HTML, para não deixá-lo poluído.
+
+### Estilos Locais / Internos
+Em CSS, estilos locais/internos pode facilitar se você trabalhar apenas com uma página, se forem muitas páginas, é mais interessante utilizar o Estilo externo.
+
+### Estilo Externo
+Em CSS, estilo externo organiza muito melhor seu código, caso faça alguma manutenção, pode existir de um outro programador, ou algo do tipo, um `@` no inicio, isso significa que há uma regra, isso acontece bastante em css moderno.
+
 ### Atalho no VScode
 `Ctrl + shift + p -> emmet: Wrap with Abbreviation -> nome da tag `
 Usado para facilitar tags dentro de um texto, como a utilização de um <strong>, ou um p dentro de outra tag.
@@ -121,3 +130,5 @@ Outro parâmetro padrão é o `target="_self"`, que é a pra prória aba.
 Outro parãmetro utilizado é o `download="<nomedoarquivo>"` junto com o `type="nomedotipodoarquivo"`, para descobrir o type, o site https://www.iana.org/assignments/media-types ajuda a encontrar examente o tipo.
 <picture></picture> ===  utilizada para colocar imagens dentro da tag, como a `<img>`, com isso pode se criar o termo `responsividade`
 <source></source> === usada para fazer uma condição de mídia, imagem, ou som
+<audio></audio> === utilizado para colocar audio
+<video></video> === utilizado para colocar video

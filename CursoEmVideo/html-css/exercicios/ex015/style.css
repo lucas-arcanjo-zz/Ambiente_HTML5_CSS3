@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background: darkkhaki;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: white;
+    background: darkolivegreen;
+}
+
+h2 {
+    background: dodgerblue;
+}
+
+p {
+    text-align: justify;
+}
