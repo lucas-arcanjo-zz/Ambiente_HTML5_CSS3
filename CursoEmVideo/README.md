@@ -69,6 +69,13 @@ Com o avançado das tecnologias, muitas coisas se tornam obsoletas, ou seja, em 
 No HTML5 é usado somente semântica, que é significado, formas é considerar em CSS, incluindo estilos.
 Para ver se alguma tag está obsoleta, sempre veja no site oficial https://dev.w3.org/html5/pf-summary/obsolete.html
 
+
+### Lincenças com músicas
+Para não ter problemas com direitos autorais, em sempre importante ve os tipos de licenças que devem ou não ser atribuídas, no Youtube, na área Youtube Studio > Biblioteca de áudio pode ser encontrar músicas licenciadas e outra não licenciadas. Sempre verifique o que é necessário para a utiilzação das músicas antes de colocar em seu site.
+
+### Utilização de vídeos
+Hoje é normal muitos utilizarem vídeos nos sites, porém, é sempre importante colocar opção de formato de vídeos, já que nem todos os navegadores suportar, por isso, existem muitos formatos populares me diversos navegadores, como por exemplo, o `mp4, m4v, webm, ogv`
+
 ### Atalho no VScode
 `Ctrl + shift + p -> emmet: Wrap with Abbreviation -> nome da tag `
 Usado para facilitar tags dentro de um texto, como a utilização de um <strong>, ou um p dentro de outra tag.
@@ -112,3 +119,5 @@ lorem === um texto pronto para utilizar na tag <p>
 Outro ponto importante é colocar a parâmetro `rel="external`, para indicar ao navegador que o link é externo, link internos não é necessário utilizar o parâmetro `target="_blank"`.
 Outro parâmetro padrão é o `target="_self"`, que é a pra prória aba.
 Outro parãmetro utilizado é o `download="<nomedoarquivo>"` junto com o `type="nomedotipodoarquivo"`, para descobrir o type, o site https://www.iana.org/assignments/media-types ajuda a encontrar examente o tipo.
+<picture></picture> ===  utilizada para colocar imagens dentro da tag, como a `<img>`, com isso pode se criar o termo `responsividade`
+<source></source> === usada para fazer uma condição de mídia, imagem, ou som
