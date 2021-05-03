@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+        
+        a:active {
+            color: yellow;
+            background: gray;
+        }
+
+        a::before {
+            content: '--> ';
+        }
+
+        a::after {
+            content: '<--';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Link</h1>
+    <ul>
+        <li><a href="https://github.com/lucas-arcanjo" target="_blank">Repositório no Github</a></li>
+        <li><a href="https://instagram.com/lucas.arcanjoo" target="_blank">Instagram</a></li>
+        <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+    </ul>
+</body>
+</html>

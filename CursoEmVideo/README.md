@@ -155,6 +155,33 @@ margin: auto; === centraliza no meio da tela, mesmo sendo tendo uma largura baix
 box-shadow: 1px 1px 2px #191020; === faz sombra, o primeiro parâmetro envolve a direita, depois a baixo, e por ultimo a espaçamento da sombra
 font-family: Arial, Helvetica, sans-serif; === é um tipo de letra, utilizasse 3 parâmetros como uma outra opção, caso não tenho a primeira.
 
+### Usando id e class com CSS
+
+id === #
+class === .
+pseudo-class :
+pseudo-element ::
+childen > 
+
+em uma página HTML, é necessário ter somente 1 id, não pode haver mais um id em uma página, segundo a regra da w3c, para resolver isso, é necessário somente usar class.
+
+pode-se colocar mais de uma classe, se houver o id, com uma mesma propriedade class, o id vai sobrepor.
+
+### Pseudo-classes 
+
+Pseudo-classes é :
+
+:hover === sempre quando os cursos do mouse passar por cima, vai acontecer alguma coisa.
+
+em CSS, pode ser utilizar as propriedades do filho 
+(ex: `div > p {}`), isso mostra que somente a propriedades do filho vão ser alteradas, que é `p`
+
+alguns pseudo-classes
+
+:hover === sempre quando passar o cursor em cima
+:visited === apresenta uma cor que já foi clicado
+:active === mudar uma cor quando clicado
+
 
 ### Tags importantes (HTML)
 ```
