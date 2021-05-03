@@ -111,7 +111,15 @@ recomendasse usa entre 3 a 5 cores em um site
 
 Uma forma de descobrir a cor de determinado tela, pode ser baixado a extensão do chrome chamada `colorzilla` que ele pega em tempo real a cor do site.
 
+### Tipografia 
+temos grego
 
+tipo == typos
+grafia == graphía
+
+é um estudo dos tipos, que foi inventando por Johannes Gutenberg, o pai da tipografia no século XV
+
+recomenda-se sans-serif
 
 ### propriedades importantes (CSS)
 
@@ -121,6 +129,7 @@ border-radius: 30px; === torna as bordas arredondadas
 text-align: justify; === preenche o texto todo 
 margin: auto; === centraliza no meio da tela, mesmo sendo tendo uma largura baixa
 box-shadow: 1px 1px 2px #191020; === faz sombra, o primeiro parâmetro envolve a direita, depois a baixo, e por ultimo a espaçamento da sombra
+font-family: Arial, Helvetica, sans-serif; === é um tipo de letra, utilizasse 3 parâmetros como uma outra opção, caso não tenho a primeira.
 
 
 ### Tags importantes (HTML)
