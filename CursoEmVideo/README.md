@@ -91,10 +91,39 @@ Em CSS, estilo externo organiza muito melhor seu código, caso faça alguma manu
 `Ctrl + shift + p -> emmet: Wrap with Abbreviation -> nome da tag `
 Usado para facilitar tags dentro de um texto, como a utilização de um <strong>, ou um p dentro de outra tag.
 
+### Harmonia de cores
+No circulo cromático existem milhões de cores, das maneiras de trabalhar, existem:
+
+- Cores primárias 
+- Cores secundárias
+- Cores terciárias
+- temperatura de cores (frias e quentes)
+- cores complementares
+- cores análogas
+- cores intercalardas
+- cores cores triádicas
+- cores cores em quadrado 
+- monocromia
+
+um site que pode ajuda muito é o site da `adobe color`, `paletton.com`, `colors`.
+
+recomendasse usa entre 3 a 5 cores em um site
+
+Uma forma de descobrir a cor de determinado tela, pode ser baixado a extensão do chrome chamada `colorzilla` que ele pega em tempo real a cor do site.
 
 
 
-### Tags importantes
+### propriedades importantes (CSS)
+
+* {} === configuração global das css
+background-image: linear-gradient(to top, white, blue); === criase um degradê
+border-radius: 30px; === torna as bordas arredondadas
+text-align: justify; === preenche o texto todo 
+margin: auto; === centraliza no meio da tela, mesmo sendo tendo uma largura baixa
+box-shadow: 1px 1px 2px #191020; === faz sombra, o primeiro parâmetro envolve a direita, depois a baixo, e por ultimo a espaçamento da sombra
+
+
+### Tags importantes (HTML)
 ```
 <h1></h1> === Título nivel1
 <h2></h2> === Título nivel2
