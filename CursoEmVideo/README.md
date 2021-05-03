@@ -121,12 +121,36 @@ grafia == graphía
 
 recomenda-se sans-serif
 
+### Medidas
+
+medidas absolutas
+cm, mm, in, px, pt, pc
+
+medidas relativas
+em, ex, rem, vw, vh, %
+
+recomenda-se, segundo a w3c usar `px` e `em`
+por padrão, as letras do navegador é de 16px
+
+16px === 1em
+no google fonts há diversas fontes para utilizar no aplicação.
+existem também o site dafonte.com, e pode ser feito assim como o google fonts.
+
+tipos de format()
+ - opentype (otf)
+ - truetype (ttf)
+ - embedded-opentype
+ - truetype-aat (Apple Advanced Typography)
+ - svg
+
+
 ### propriedades importantes (CSS)
 
 * {} === configuração global das css
 background-image: linear-gradient(to top, white, blue); === criase um degradê
 border-radius: 30px; === torna as bordas arredondadas
 text-align: justify; === preenche o texto todo 
+text-indent: 30px === o texto começa com uma indentação
 margin: auto; === centraliza no meio da tela, mesmo sendo tendo uma largura baixa
 box-shadow: 1px 1px 2px #191020; === faz sombra, o primeiro parâmetro envolve a direita, depois a baixo, e por ultimo a espaçamento da sombra
 font-family: Arial, Helvetica, sans-serif; === é um tipo de letra, utilizasse 3 parâmetros como uma outra opção, caso não tenho a primeira.
